@@ -6,6 +6,9 @@
 
 using namespace std;
 
+extern int menu();
+extern void print_pokemon(int);
+
 int main()
 {
     cout << "Bem-vindo a Pokedex " << pokedex_VERSION_MAJOR << "." <<
