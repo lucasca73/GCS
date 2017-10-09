@@ -1,7 +1,17 @@
 #ifndef VERSION_HPP__
 #define VERSION_HPP__
 
-#define pokedex_VERSION_MAJOR @pokedex_VERSION_MAJOR@
-#define pokedex_VERSION_MINOR @pokedex_VERSION_MINOR@
+//@pokedex_VERSION_MINOR@
+
+#define pokedex_VERSION_MAJOR 2.1
+#define pokedex_VERSION_MINOR 1.0
+
+/*
+if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+ #define pokedex_VERSION_MAJOR 1.0
+elseif(CMAKE_BUILD_TYPE STREQUAL "Release")
+ #define pokedex_VERSION_MAJOR 2.1
+endif()
+*/
 
 #endif

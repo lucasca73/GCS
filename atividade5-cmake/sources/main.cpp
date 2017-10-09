@@ -2,7 +2,7 @@
 #include <iostream>
 #include "pokemon.hpp"
 #include "pokedex.hpp"
-#include "version.hpp"
+#include "version.hpp.in"
 
 using namespace std;
 
